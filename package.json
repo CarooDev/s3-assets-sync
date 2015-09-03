@@ -1,0 +1,26 @@
+{
+  "name": "s3-assets-sync",
+  "version": "0.0.1",
+  "description": "Sync asset files (CSS, JS, images) with Amazon S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "gulp"
+  ],
+  "author": "Hendy Tanata, Love With Food",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-awspublish": "^3.0.0",
+    "merge-stream": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovewithfood/s3-assets-sync.git"
+  }
+}
